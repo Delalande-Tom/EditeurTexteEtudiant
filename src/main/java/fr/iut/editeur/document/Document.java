@@ -31,5 +31,13 @@ public class Document {
         this.texte = leftPart + remplacement + rightPart;
     }
 
+    public void majuscules(int start, int end) {
+        String part = this.texte.substring(start, end);
+        part = part.toUpperCase();
+        remplacer(start,end,part);
+    }
+
+
+
 
 }
