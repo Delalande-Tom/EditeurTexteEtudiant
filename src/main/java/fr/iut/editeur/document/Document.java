@@ -41,6 +41,10 @@ public class Document {
         remplacer(start,end,"");
     }
 
+    public void clear(){
+        this.texte="";
+    }
+
 
 
 
